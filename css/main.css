@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.small {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, .2) !important;
+  margin: 20px auto;
+  padding: 20px !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+#productTotal {
+  background-color: #a93307;
+  padding: 8px;
+  border-radius: 4px;
+  height: 40px;
+  width: 90px;
+}
+
+#productTotal::before {
+  content: "Total: ";
+}
+
+.is-invalid:focus,
+.is-valid:focus {
+
+  box-shadow: none !important;
+}
+
+#checkTrue i {
+  font-size: 40px;
+  color: lawngreen;
+}
+
+#checkFalse i {
+  font-size: 40px;
+  color: red;
+  /* display: none; */
+}
+
+header,
+.header-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 130px;
+    background-color: #2a8a85;
+    color: #fff;
+    font-size: 70px;
+}
+header i {margin-right: 10px;}
+
+.header-2 { 
+    height: 30px;
+    background-color: #e2dfdf;
+    color: #2a8a85;
+}
+#addProduct,#hideTable,#showTable,#updateProduct  {
+    background-color: #2a8a85 !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+}
+#addProduct:hover,#hideTable:hover
+,#showTable:hover,#updateProduct:hover  {
+  background-color: #fff !important;
+  color: #2a8a85 !important;
+  border: 1px solid #2a8a85 !important;
+  
+}
+
+.text-green {color: #2a8a85;
+border: none;
+background-color: #fff;}
+.text-danger{
+  border: none;
+background-color: #fff;
+}
