@@ -183,6 +183,7 @@ updateProduct.onclick = function () {
   localStorage.setItem("pro", JSON.stringify(productsContainer));
   displayData();
   clearData();
+  getTotal();
 };
 // End Update Data
 
